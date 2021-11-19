@@ -1,0 +1,6 @@
+fileobject = open("text.txt", "r")
+print(fileobject.read())
+fileobject.close()
+fileobject = open("text.txt", "r")
+print(type(fileobject.readlines()))
+fileobject.close()
